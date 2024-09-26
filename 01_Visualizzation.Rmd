@@ -1,0 +1,52 @@
+---
+title: "Visualizzazione dei dati"
+output: html_document
+---
+
+## Grafici di base con R
+
+```{r}
+# Creare un semplice grafico a dispersione
+altezza <- c(150, 160, 170, 180, 190)
+peso <- c(65, 70, 75, 80, 85)
+
+# Scatter plot
+plot(altezza, 
+     peso, 
+     main = "Grafico Altezza vs Peso",
+     xlab = "Altezza (cm)", 
+     ylab = "Peso (kg)", 
+     type = "o", # indica che vogliamo una linea con punti
+     pch = 19, 
+     col = "blue"
+)
+
+# Creare un istogramma della variabile altezza
+hist(altezza, 
+     main = "Istogramma dell'altezza",
+     xlab = "Altezza (cm)", 
+     col = "lightgreen", 
+     border = "black"
+)
+
+# Creare un boxplot del peso
+boxplot(peso,
+        main = "Boxplot del peso",
+        ylab = "Peso (kg)", 
+        col = "orange"
+)
+
+# Dati categoriali
+città <- c("Roma", "Milano", "Firenze", "Torino")
+popolazione <- c(2873000, 1352000, 382000, 870000)
+
+# Creare un grafico a barre
+barplot(popolazione,
+        names.arg = città,
+        col = "lightblue",
+        xlab = "Città",
+        ylab = "Popolazione",
+        main = "Popolazione per città"
+)
+
+```

@@ -12,3 +12,89 @@ Questo è un testo formattato in Markdown.
 print("Hello, World!")
 ```
 
+
+## Operatori Aritmetici
+
+```{r}
+# Somma
+3 + 2  # Risultato: 5
+
+# Sottrazione
+5 - 1  # Risultato: 4
+
+# Moltiplicazione
+4 * 3  # Risultato: 12
+
+# Divisione
+10 / 2  # Risultato: 5
+
+# Potenza
+2^3  # Risultato: 8
+
+# Modulo (resto della divisione)
+10 %% 3  # Risultato: 1
+```
+
+## Operatori Logici
+
+```{r}
+# Maggiore di
+5 > 3  # Risultato: TRUE
+
+# Minore di
+5 < 3  # Risultato: FALSE
+
+# Uguale a
+5 == 5  # Risultato: TRUE
+
+# Diverso da
+5 != 3  # Risultato: TRUE
+
+# Maggiore o uguale
+5 >= 5  # Risultato: TRUE
+
+# Minore o uguale
+5 <= 3  # Risultato: FALSE
+```
+
+## Assegnare variabili
+
+```{r}
+# Assegnare un valore a una variabile
+x <- 10
+y = 5
+
+# Sommare le variabili
+z <- x + y  # Risultato: 15
+z
+```
+
+## Tipi di dati
+
+```{r}
+# Numeri
+num <- 42
+
+# Stringhe
+str <- "Ciao, mondo!"
+
+# Vettori (sequenze di numeri o stringhe)
+vettore_num <- c(1, 2, 3, 4, 5)  # Vettore di numeri
+vettore_num
+vettore_str <- c("A", "B", "C")  # Vettore di stringhe
+vettore_str
+```
+
+## Funzioni
+
+```{r}
+# Sommare tutti gli elementi di un vettore
+somma <- sum(vettore_num)  # Risultato: 15
+somma
+
+# Calcolare la lunghezza di un vettore
+lunghezza <- length(vettore_num)  # Risultato: 5
+lunghezza
+```
+
+
