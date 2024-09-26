@@ -1,0 +1,14 @@
+---
+title: "Esempio Hello World"
+output: html_document
+---
+
+## Hello World in Markdown
+
+Questo è un testo formattato in Markdown.
+
+```{r}
+# Esegui codice R
+print("Hello, World!")
+```
+
